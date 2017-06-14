@@ -9,4 +9,4 @@ Then the code will import the file and calculate the corresponding metrics. Befo
 information you want from the traces by applying them into columns. This section will be explain in section Column Parameters.
 
 
-#Column Parameters
+# Column Parameters
