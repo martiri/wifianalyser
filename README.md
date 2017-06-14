@@ -12,21 +12,40 @@ information you want from the traces by applying them into columns. This section
 # Column Parameters
 
 Before starting this code you must make sure you have extracted the capture correctly with the following columns and with exctly the same name:
- No.                  -------------> The number of packet
+
+No.                  -------------> The number of packet
+ 
 Time                 -------------> The moment in time the packet was captured
+
 Transmitter address  -------------> The transmitter address (MAC)
+
 Source               -------------> The source address (MAC)
+
 Destination          -------------> The destination address (MAC)
+
 BSS Id               -------------> The BSS ID of each packet. i.e. the AP addres (MAC)
+
 SSID                 -------------> The name with we can recognize the network
+
 Channel              -------------> The channel the packet is travelling trhough
+
 Signal strength .dBm.-------------> The RSSI in (dBm)
+
 Type Subtype         -------------> The subtype of packet (Beacon frame, Acknowledgement, etc.)
+
 Subtype              -------------> The subtype code recognized by Wireshark
+
 Length               -------------> The length of each packet
+
 Type                 -------------> The type of packet (Management, Data or Control frame)
+
 DS status            -------------> This is the status it tells you if the packet is being send to an ap or from an ap
+
 Current Channel      -------------> The channel the packet is suposed to be travelling through
+
 Receiver address     -------------> 
+
 Duration             -------------> The duration of the packet in be transmitted (micro seconds)
+
 Retry                -------------> This tels you if a packet has been retransmitted or not
+
